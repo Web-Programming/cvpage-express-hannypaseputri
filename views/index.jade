@@ -1,0 +1,161 @@
+extends layout
+
+block content
+  header.d-print-none
+      div.container.text-center.text-lg-left
+        div.py-3.clearfix
+          h1.site-title.mb-0 Hanny Pase Putri
+          div.site-nav
+            nav(role='navigation')
+              ul.nav.justify-content-center
+                li.nav-item
+                  a.nav-link(href='https://twitter.com/templateflip', title='Twitter')
+                    i.fab.fa-twitter
+                    span.menu-title.sr-only Twitter
+                li.nav-item
+                  a.nav-link(href='https://www.facebook.com/templateflip', title='Facebook')
+                    i.fab.fa-facebook
+                    span.menu-title.sr-only Facebook
+                li.nav-item
+                  a.nav-link(href='https://www.instagram.com/templateflip', title='Instagram')
+                    i.fab.fa-instagram
+                    span.menu-title.sr-only Instagram
+                li.nav-item
+                  a.nav-link(href='https://github.com/templateflip', title='Github')
+                    i.fab.fa-github
+                    span.menu-title.sr-only Github
+    .page-content
+      div.container
+        .cover.shadow-lg.bg-white
+          .cover-bg.p-3.p-lg-4.text-white
+            div.row
+              div.col-lg-4.col-md-5
+                .avatar.hover-effect.bg-white.shadow-sm.p-1
+                  img(src='images/foto.jpg', width='150', height='200')
+              div.col-lg-8.col-md-7.text-center.text-md-start
+                h2.h1.mt-2(data-aos='fade-left', data-aos-delay='0') Hanny Pase Putri
+                p(data-aos='fade-left', data-aos-delay='100') Graphic Designer & Web Developer
+                .d-print-none(data-aos='fade-left', data-aos-delay='200')
+                  a.btn.btn-light.text-dark.shadow-sm.mt-1.me-1(href='right-resume.pdf', target='_blank') Download CV
+                  a.btn.btn-success.shadow-sm.mt-1(href='#contact') Hire Me
+          .about-section.pt-4.px-3.px-lg-4.mt-1
+            div.row
+              div.col-md-6
+                h2.h3.mb-3 About Me
+                p Hello! I’m Hanny Pase Putri. Informatics Management graduate from Sriwijaya University with GPA 3.47 |Eager to learn new things and up to any challenges | Equally good in individual and team work to solve a problem | Enthusiastic about System designing based on company goals according to business needs and processes | Deal with Information Systems Analysis and Design, Multimedia, Marketing Management | Microsoft Office especially, MySQL, NetBeans, Adobe Photoshop, Adobe After Effect.
+              div.col-md-5.offset-md-1
+                div.row.mt-2
+                  div.col-sm-4
+                    div.pb-1 Age
+                  div.col-sm-8
+                    div.pb-1.text-secondary 22
+                  div.col-sm-4
+                    div.pb-1 Email
+                  div.col-sm-8
+                    div.pb-1.text-secondary hannyp.putri@gmail.com
+                  div.col-sm-4
+                    div.pb-1 Phone
+                  div.col-sm-8
+                    div.pb-1.text-secondary +6289672225482
+                  div.col-sm-4
+                    div.pb-1 Address
+                  div.col-sm-8
+                    div.pb-1.text-secondary Komplek Pusri Sako Jalan Lada 2 No.R/10, Sumatera Selatan
+          hr.d-print-none
+          .skills-section.px-3.px-lg-4
+            h2.h3.mb-3 Professional Skills
+            div.row
+              div.col-md-6
+                div.mb-2
+                  span Microsoft Office 
+                  div.progress.my-1
+                    div.progress-bar.bg-primary(role='progressbar', data-aos='zoom-in-right', data-aos-delay='100', data-aos-anchor='.skills-section', style='width: 90%', aria-valuenow='90', aria-valuemin='0', aria-valuemax='100')
+                div.mb-2
+                  span English 
+                  div.progress.my-1
+                    div.progress-bar.bg-primary(role='progressbar', data-aos='zoom-in-right', data-aos-delay='200', data-aos-anchor='.skills-section', style='width: 85%', aria-valuenow='85', aria-valuemin='0', aria-valuemax='100')
+                div.mb-2
+                  span JavaScript
+                  div.progress.my-1
+                    div.progress-bar.bg-primary(role='progressbar', data-aos='zoom-in-right', data-aos-delay='300', data-aos-anchor='.skills-section', style='width: 75%', aria-valuenow='75', aria-valuemin='0', aria-valuemax='100')
+              div.col-md-6
+                div.mb-2
+                  span Adobe Photoshop
+                  div.progress.my-1
+                    div.progress-bar.bg-success(role='progressbar', data-aos='zoom-in-right', data-aos-delay='400', data-aos-anchor='.skills-section', style='width: 80%', aria-valuenow='90', aria-valuemin='0', aria-valuemax='100')
+          hr.d-print-none
+          .work-experience-section.px-3.px-lg-4
+            h2.h3.mb-4 Work Experience
+            .timeline
+              .timeline-card.timeline-card-primary.card.shadow-sm
+                .card-body
+                  div.h5.mb-1 Digital Marketing 
+                  span.text-muted.h6 Personal Project
+                  div.text-muted.text-small.mb-2 June 2020- November 2020
+                  div Learn how to create Ads on Instagram, Promoting Ads on Social Media, Create a brochure to join a Zoom Meeting to promote Ads, Research the right time to upload Ads, Analyze and Create weekly reports on Ads sales
+
+              .timeline-card.timeline-card-primary.card.shadow-sm
+                .card-body
+                  div.h5.mb-1 Intership Of Staff IT And Support 
+                  span.text-muted.h6 PT BPR Syariah Al-Falah
+                  div.text-muted.text-small.mb-2 April 2021- October 2022
+                  div Understand the Advantages and Disadvantages of the Manual System at the Bank, •	Learn about the products in the Bank, •	Build a service website to make it easier to register prospective customers and submit customer complaints online.
+              hr.d-print-none
+          .page-break
+          .education-section.px-3.px-lg-4.pb-4
+            h2.h3.mb-4 Education
+            .timeline
+              .timeline-card.timeline-card-success.card.shadow-sm
+                .card-body
+                  div.h5.mb-1 Diploma Of Informatics Management 
+                  span.text-muted.h6 Sriwijaya University
+                  div.text-muted.text-small.mb-2 2018- 2022
+                  
+              
+          hr.d-print-none
+          .contant-section.px-3.px-lg-4.pb-4#contact
+              div.col.d-none.d-print-block
+                div.mt-2
+                  div
+                    div.mb-2
+                      div.text-dark
+                        i.fab.fa-twitter.mr-1
+                        span https://twitter.com/templateflip
+                    div.mb-2
+                      div.text-dark
+                        i.fab.fa-facebook.mr-1
+                        span https://www.facebook.com/templateflip
+                    div.mb-2
+                      div.text-dark
+                        i.fab.fa-instagram.mr-1
+                        span https://www.instagram.com/templateflip
+                    div.mb-2
+                      div.text-dark
+                        i.fab.fa-github.mr-1
+                        span https://github.com/templateflip
+    footer.pt-4.pb-4.text-muted.text-center.d-print-none
+      div.container
+        div.my-3
+          div.h4 Hanny Pase Putri
+          div.footer-nav
+            nav(role='navigation')
+              ul.nav.justify-content-center
+                li.nav-item
+                  a.nav-link(href='https://twitter.com/templateflip', title='Twitter')
+                    i.fab.fa-twitter
+                    span.menu-title.sr-only Twitter
+                li.nav-item
+                  a.nav-link(href='https://www.facebook.com/templateflip', title='Facebook')
+                    i.fab.fa-facebook
+                    span.menu-title.sr-only Facebook
+                li.nav-item
+                  a.nav-link(href='https://www.instagram.com/templateflip', title='Instagram')
+                    i.fab.fa-instagram
+                    span.menu-title.sr-only Instagram
+                li.nav-item
+                  a.nav-link(href='https://github.com/templateflip', title='Github')
+                    i.fab.fa-github
+                    span.menu-title.sr-only Github
+        div.text-small
+          div.mb-1 © Right Resume. All rights reserved.
+          div Design - a(href='https://templateflip.com/', target='_blank') TemplateFlip
