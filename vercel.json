@@ -1,0 +1,17 @@
+{
+    "version" : 2,
+    "name" : "cv-hannypaseputri",
+    "builds" : [
+        {
+
+            "src" : "app.js",
+            "use" : "@vercel/node"
+        }
+    ],
+    "routes": [
+        {
+            "src" : "/(.*)",
+            "dest" : "/app.js"
+        }
+    ]
+}
